@@ -1,4 +1,4 @@
-module MyEnumable
+module MyEnumerable
   def all?
       list.each do |e|
         return false unless yield e
